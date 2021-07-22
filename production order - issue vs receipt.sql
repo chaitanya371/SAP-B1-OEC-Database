@@ -17,5 +17,5 @@
 
 	Where 
 	--T0.Status = 'R' 
-	--and (T1.ItemCode like 'RC%%' or T1.ItemCode like 'PF%%')
+	--and (T1.ItemCode like 'A%%' or T1.ItemCode like 'B%%')
 	(T1.IssuedQty - T0.CmpltQty) > 0
